@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #fac97f;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+.right-section {
+  display: flex;
+  gap: 10px;
+}
+
+.search-box {
+  padding: 5px;
+}
+
+.signup-btn, .search-btn, .subscribe-btn {
+  padding: 5px 10px;
+  background: #f8a831;
+}
+
+.category {
+  padding: 15px;
+  display: flex;
+  gap: 5px;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: #fac97f;
+  padding: 10px;
+}
+
+.carousel img {
+  width: 600px;
+  height: 200px;
+}
+
+.tagline {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.tagline .links a {
+  margin: 0 10px;
+  color: rgb(255, 115, 0);
+  text-decoration: none;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #fac97f;
+  padding: 15px;
+  width: 300px;
+}
+
+.image-box {
+  background: #fac97f;
+  height: 120px;
+  margin-bottom: 10px;
+}
+
+.buttons button {
+  margin-right: 10px;
+  padding: 5px 10px;
+}
+
+.footer {
+  background: #fac97f;
+  padding: 30px;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #fac97f;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 14px;
+}
